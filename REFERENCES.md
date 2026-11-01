@@ -83,7 +83,10 @@ deai-humanizer v2.0 的每一个组成部分都来自下面这些项目与研究
 
 ---
 
-## 五、相关工作（计划于 v2.1 融入）
+## 五、相关工作（v2.1 已融入）
+
+- [Kiterlin/anti-defensive-writing](https://github.com/Kiterlin/anti-defensive-writing) —— 反防御性写作体系：**已融入为 G 节**（Defensive writing #27、中文技术 SOP #28），完整规范收录于 references/upstream-companions/anti-defensive-writing-full.md
+- [LB623/no-negative-echo](https://github.com/LB623/no-negative-echo) —— 交付残留检查：**已融入为 G 节**（Delivery echo #29），完整规范收录于 references/upstream-companions/no-negative-echo-full.md；技能本体另已独立收编（Skills Manager 中央库 no-negative-echo）
 
 - [Kiterlin/anti-defensive-writing](https://github.com/Kiterlin/anti-defensive-writing) —— 反防御性写作体系（移除过早道歉、冗余免责、多层对冲，同时锚定必要范围）：与本技能的「清理免责声明堆叠」规则同源深化
 - [LB623/no-negative-echo](https://github.com/LB623/no-negative-echo) —— 交付残留检查（交付文案不残留被否方案痕迹）

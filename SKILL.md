@@ -544,6 +544,8 @@ metadata:
 
 **交付前逐面检查残留**：被否方案的名称、「没有 X」「不同于 Y」式对比、对已放弃方案 Z 的提及。高保证场景（正式发布、对外 commit）逐一核对。
 
+> 完整规范全文见 [references/upstream-companions/](references/upstream-companions/)：anti-defensive-writing-full.md（检测清单与六分类改写流程）、no-negative-echo-full.md（交付残留四步法）。
+
 
 ## 检测结果
 
