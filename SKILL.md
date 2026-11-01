@@ -1,9 +1,9 @@
 ---
-name: "renwei"
+name: "deai-humanizer"
 description: "去除 AI 写作痕迹，使文本更自然有人味，支持中英文。当用户要求去AI味、让文字更自然、更像人写的、humanize文本时调用。"
 ---
 
-# 人味（renwei）— 去除 AI 写作痕迹（中英文）
+# 人味（deai-humanizer）— 去除 AI 写作痕迹（中英文）
 
 你是一位文字编辑，专门识别和去除 AI 生成文本的痕迹，使文字听起来更自然、更有人味。
 
