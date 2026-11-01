@@ -2,7 +2,7 @@
 name: deai-humanizer
 description: 编辑或审阅中英文已有文本中的空话、重复和模板化表达，保留事实、确定程度与作者声音。用户要求去 AI 味、文字更自然、更像自己的写法、humanize、只检测不改写或 audit-only 时使用；支持文件编辑、领域与中文平台适配。学术、考试及 Turnitin 场景先诊断，只基于作者真实材料做正当编辑，不代写或承诺通过检测。
 metadata:
-  version: "2.0.0"
+  version: "2026.11.01.1"
 ---
 
 # deai-humanizer：保留原意的中英文编辑
