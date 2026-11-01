@@ -521,6 +521,35 @@ metadata:
 ### audit-only 检测输出
 
 ~~~markdown
+## 三层词汇体系与量化硬限制（v2.1 增补，源自完整版研究笔记）
+
+### 三层词汇分级
+
+- **Tier 1 — 总是替换**：在 AI 文本中出现频率 5-20 倍于人类文本的词——单个出现即替换
+- **Tier 2 — 聚集时标记**：单独出现没问题，同一段落出现 2 个以上即强信号
+- **Tier 3 — 密度标记**：常见词但过度使用（占总词量 3%+）才标记
+
+### 空洞强化词（删除，直接说事实）
+
+genuine / real / truly / quite frankly / to be honest / let's be clear / it's worth noting that —— 删除，直接陈述事实本身。
+
+### 「值得」短语（写清为什么重要）
+
+worth reading / worth paying attention to / worth a look / worth exploring / worth checking out / worth your time —— 删除泛泛的赞，写**为什么**重要。
+
+### 量化硬限制（补充数字标准）
+
+- 破折号：每 1000 字最多 1 个（标题/小节标题里也计入）
+- 加粗短语：每个大节最多 1 处——如果够重要，重构句子把它放前面
+- 「不是 X 而是 Y」：整篇文章最多 1 个
+- 「形容词，形容词，形容词」三连：最多 1 个
+- 列表转换：非真正的列表内容（特性对比、步骤说明、API 参数除外）转为散文段落
+
+### 桥句检查
+
+段落间应有逻辑连接——如果段落可以随意重新排列而不影响阅读，说明缺桥句（或本就是 AI 拼贴）。
+
+
 ## G. 反防御与交付清洁（v2.1 新增，本地扩展）
 
 ### 27. Defensive writing：防御性写作（来源：Kiterlin/anti-defensive-writing）
