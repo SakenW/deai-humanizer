@@ -546,6 +546,12 @@ metadata:
 
 > 完整规范全文见 [references/upstream-companions/](references/upstream-companions/)：anti-defensive-writing-full.md（检测清单与六分类改写流程）、no-negative-echo-full.md（交付残留四步法）。
 
+**反防御检测清单（10 项，逐项过）**：
+1. 不必要的免责声明（「仅供参考」「视情况而定」）　2. 重复否认（「本文并不声称……」）　3. 过度对冲（可能／在某种程度上／在一定程度上堆叠）　4. 高危位置警告（把限制放在最显眼处）　5. 以限制开头的段落　6. 负面框架（先说「不是」再说「是」）　7. 预防误解的解释（读者根本不会那样误解）　8. 自我削弱的贡献声明（「我们只是尝试……」）　9. 不必要的 not-X-but-Y　10. 冗余转折
+
+**交付残留四步法（no-negative-echo）**：
+① Decide what belongs：从「已采用、已验证的最终状态」判断交付内容　② Produce from the accepted state：标题/摘要/commit/PR 从最终状态重新生成，不复述被否方案　③ Verify before delivery：逐交付面查被否方案残留（名称、「没有 X」式对比、已放弃方案提及）　④ High-assurance cases：正式发布与对外 commit 逐一核对
+
 
 ## 检测结果
 
