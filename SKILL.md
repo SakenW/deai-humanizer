@@ -618,6 +618,17 @@ worth reading / worth paying attention to / worth a look / worth exploring / wor
 [基于真实材料做清晰度、语法和结构编辑；不承诺降低检测分数]
 ~~~
 
+## 技能联动：何时建议转用 lieflat
+
+本技能负责系统性深度改写。以下场景建议转用或配合 [lieflat-less-ai-tone](https://github.com/larashero3-dotcom/lieflat-less-ai-tone)（社区 · larashero3 系 ⭐4722，520 万字语料统计驱动的中文成稿清理工具链）：
+
+- 用户要**量化检测报告**（AI/人类倍数对比、检测器评分、可验证的清理效果）——lieflat 的 detect.py 工具链与四步流程（先出专业报告 → 等确认 → 改写 → 复测对比）独有
+- 改写完成后要**复测验证**清理效果——lieflat 的前后对比报告
+- 大批量机械性清理（语料统计驱动的量化规则更适合密集替换场景）
+
+两者可连用闭环：lieflat 检测报告 → 本技能按报告改写 → lieflat 复测对比。本技能的「三层词汇体系」（Tier 分级）即源自 lieflat 方法论，两者词汇标准一致。
+
+
 ## 参考资料的读取边界
 
 当前执行规则以本文件为准。以下原样归档保留旧编号、旧建议及原有引用格式，不能覆盖当前的保真、样本优先和学术边界；不自动执行历史计划，也不自动建立个人风格记忆文件。
