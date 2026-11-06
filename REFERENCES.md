@@ -50,6 +50,10 @@ deai-humanizer 的每个组成部分都来自下面的项目与研究。本文�
 | references/full-patterns.md | 44 种模式全表（中英对照，v1 体系；v2.0 经映射表融入新骨架） |
 | references/exam-answer-notes.md | 英文考试/作业答案场景的诚信边界补充 |
 | references/zh-signals.md | 中文反指纹白名单（2026-11-06 新建，参照 SEPIA-2026 zh.md 方法论，简体大陆向） |
+| references/venues/ | venue 场景规则 4 件（公众号文章 / 技术文档 / PR 回复 / 发布说明，2026-11-06 新建） |
+| references/narrative-zh.md | 中文叙事架构层骨架 + 实测路线图（v0 骨架，数值待中文实测，P2 立项） |
+| references/model-fingerprints-zh.md | 中文模型指纹积累框架（v0 骨架，GLM/DeepSeek/Qwen 等待积累） |
+| evals/ | 行为评估（README + deaify-wechat-article：prompt + 逐条验收标准，2026-11-06 新建） |
 | tests/turnitin-integrity-cases.md | 学术诚信红队测试用例（4 案例） |
 | INTEGRATION-PLAN.md / INTEGRATION-NOTES.md | 两代整合的计划与说明（含 44→26 完整映射表） |
 | SEPIA-COMPARISON.md | sepia 深读对比与可融合清单（2026-11-06，P0/P1/P2 融合依据） |
